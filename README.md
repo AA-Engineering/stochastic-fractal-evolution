@@ -62,3 +62,5 @@ Independent mathematical critique and comparisons with established methods are e
 ## Comparative research
 
 - [SFS vs SFE: Comparative Theory and Testable Advantages](SFS_VS_SFE.md) — distinguishes established Stochastic Fractal Search from the proposed SFE framework and defines head-to-head validation tests.
+
+- [SFE-DC-001: Constrained Thermal and Workload Evolution in Data Centers](SFE_DC_001.md) — proposed falsifiable study of SFE for anticipatory thermal/workload management and data-center efficiency.
