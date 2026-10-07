@@ -58,3 +58,7 @@ The initial formulation and documentation were developed collaboratively through
 ## Contributing
 
 Independent mathematical critique and comparisons with established methods are especially welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Comparative research
+
+- [SFS vs SFE: Comparative Theory and Testable Advantages](SFS_VS_SFE.md) — distinguishes established Stochastic Fractal Search from the proposed SFE framework and defines head-to-head validation tests.
