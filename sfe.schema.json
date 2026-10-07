@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Stochastic Fractal Evolution experiment",
+  "description": "Draft machine-readable metadata schema for reproducible SFE experiments.",
+  "type": "object",
+  "required": ["sfe_version", "experiment_id", "initial_state", "rng", "transition_classes", "constraint_operator"],
+  "properties": {
+    "sfe_version": {"type": "string"},
+    "experiment_id": {"type": "string"},
+    "initial_state": {
+      "type": "object",
+      "properties": {
+        "source": {"type": "string"},
+        "hash": {"type": "string"},
+        "multiscale_generator": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "rng": {
+      "type": "object",
+      "required": ["algorithm", "seed"],
+      "properties": {
+        "algorithm": {"type": "string"},
+        "seed": {"type": ["integer", "string"]}
+      }
+    },
+    "transition_classes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "weight"],
+        "properties": {
+          "name": {"type": "string"},
+          "weight": {"type": "number", "minimum": 0}
+        }
+      }
+    },
+    "history_model": {"type": ["object", "null"]},
+    "constraint_operator": {
+      "type": "object",
+      "required": ["name", "behavior"],
+      "properties": {
+        "name": {"type": "string"},
+        "behavior": {"enum": ["reject", "clip", "project", "repair", "optimize", "mixed"]}
+      },
+      "additionalProperties": true
+    },
+    "steps": {"type": "integer", "minimum": 1},
+    "metrics": {"type": "array", "items": {"type": "string"}},
+    "software_commit": {"type": "string"}
+  },
+  "additionalProperties": true
+}
