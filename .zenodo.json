@@ -1,0 +1,9 @@
+{
+  "title": "Stochastic Fractal Evolution (SFE): Proposed Framework and Research Protocols",
+  "description": "Research repository for a proposed constrained multiscale stochastic evolution framework. Includes mathematical specifications, geophysical hindcasting protocols, and reproducibility requirements. No validated predictive advantage is claimed.",
+  "creators": [{"name": "Hildreth, Craig"}],
+  "license": "MIT",
+  "keywords": ["stochastic dynamics", "fractal geometry", "ensemble simulation", "uncertainty quantification", "plate tectonics", "reproducibility"],
+  "upload_type": "software",
+  "access_right": "open"
+}
