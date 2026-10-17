@@ -74,3 +74,5 @@ Independent mathematical critique and comparisons with established methods are e
 - [13-role research implementation panel](RESEARCH_PANEL_13.md)
 - [Known-answer Ornstein–Uhlenbeck control](examples/ou_known_answer.py)
 - [Citation metadata](CITATION.cff)
+
+- [SFE-GEO-RG001: Rio Grande–Pecos capture via Tijeras](SFE_GEO_RG001.md) — conceptual scenario, known drainage constraints, and proposed DEM-based validation.
