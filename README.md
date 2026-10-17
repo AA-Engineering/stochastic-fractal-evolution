@@ -76,3 +76,5 @@ Independent mathematical critique and comparisons with established methods are e
 - [Citation metadata](CITATION.cff)
 
 - [SFE-GEO-RG001: Rio Grande–Pecos capture via Tijeras](SFE_GEO_RG001.md) — conceptual scenario, known drainage constraints, and proposed DEM-based validation.
+
+- [SFE-GEO-RG002: fault-controlled westward drainage](SFE_GEO_RG002_FAULTS.md) — evidence, competing tectonic scenarios, and DEM-based falsification tests.
