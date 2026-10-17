@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this experimental SFE research repository, please cite this software record."
+title: "Stochastic Fractal Evolution (SFE): Proposed Framework and Research Protocols"
+type: software
+authors:
+  - family-names: Hildreth
+    given-names: Craig
+repository-code: "https://github.com/AA-Engineering/stochastic-fractal-evolution"
+url: "https://github.com/AA-Engineering/stochastic-fractal-evolution"
+license: MIT
+abstract: "Experimental framework combining multiscale stochastic seeding, history-dependent transitions, explicit admissibility constraints, and ensemble analysis. Scientific novelty and predictive performance remain unvalidated."
