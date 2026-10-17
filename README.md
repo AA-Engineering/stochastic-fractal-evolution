@@ -66,3 +66,11 @@ Independent mathematical critique and comparisons with established methods are e
 - [SFE-DC-001: Constrained Thermal and Workload Evolution in Data Centers](SFE_DC_001.md) — proposed falsifiable study of SFE for anticipatory thermal/workload management and data-center efficiency.
 
 - [SFE-GEO-H001: 30 Ma-to-present hindcast protocol](SFE_GEO_H001.md) — historical validation plan, leakage controls, governing framework, reference data, and falsification criteria.
+
+## Public research and dissemination
+
+- [Public research entry point](PUBLIC_RESEARCH_LANDING.md)
+- [Publication and DOI checklist](PUBLICATION_CHECKLIST.md)
+- [13-role research implementation panel](RESEARCH_PANEL_13.md)
+- [Known-answer Ornstein–Uhlenbeck control](examples/ou_known_answer.py)
+- [Citation metadata](CITATION.cff)
